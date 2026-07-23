@@ -19,5 +19,5 @@ func (c Bank) Pay(usd int) int {
 }
 
 func (c Bank) Cancel(id int) {
-	fmt.Println("отмена банк опирация id=", id)
+	fmt.Println("отмена оплаты банком id=", id)
 }
