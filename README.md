@@ -68,7 +68,7 @@ func main() {
  
 	paymentModule.Pay("бургер", 5)
 	idPhone := paymentModule.Pay("телефон", 500)
-	idGame := paymentModule.Pay("стим", 20)
+	idGame := paymentModule.Pay("игра", 20)
  
 	paymentModule.Cancel(idPhone)
  
@@ -76,7 +76,7 @@ func main() {
 	allInfo := paymentModule.AllInfo()
  
 	fmt.Println("все наши оплаты", allInfo)
-	fmt.Println("гейм инфо", gameInfo)
+	fmt.Println("game info", gameInfo)
 }
 ```
  
